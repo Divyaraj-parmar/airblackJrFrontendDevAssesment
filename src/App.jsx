@@ -129,7 +129,11 @@ function App() {
         <h3 style={{ color: "white", width: "50%" }}>
           Join our growing community of 35,000+ alumni
         </h3>
-
+        <div className="formDiv">
+        <button type="Submit" style={{ color: "white", backgroundColor: "lightpink",width: "100%",border: "none",height: "30px",}}>
+          Apply Now
+        </button>
+        </div>
         <div>
           <img src={social} />
         </div>
